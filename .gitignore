@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# environment variables (VERY IMPORTANT)
+.env
+.env.*
+
+# logs
+logs
+*.log
+
+# OS / editor files
+.DS_Store
+.vscode/
