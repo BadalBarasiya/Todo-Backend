@@ -15,7 +15,7 @@ const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 // middlewares
 app.use(
   cors({
-    origin: CLIENT_URL,
+    origin: "*",
   })
 );
 app.use(express.json());
