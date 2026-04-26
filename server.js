@@ -23,7 +23,7 @@ app.use(express.json());
 
 // ✅ MongoDB Connection
 mongoose
-  .connect(process.env.MONGODB_URL)
+  .connect(process.env.MONGODB_URL||"")
   .then(() => {
     console.log("Connected to MongoDB");
 
